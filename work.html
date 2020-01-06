@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PortFolioDeepak</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="NewDeepak.css" />
+</head>
+<body>
+
+    
+
+    <!-- START NAV -->
+
+    
+            <ul class="nav nav-tabs navbar-expand-lg navbar-dark bg-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                  <a class="navbar-brand" href="#">
+                    <img src="logo.png" width="50" height="50">
+                    </a>
+                
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="NewDeepak.html">Welcome</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="education.html">Education</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link " href="work.html">Work</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                 
+                </ul>
+              </ul>
+                
+              </div>
+            </nav>
+
+
+
+            <div class="work">
+            <div class="row">
+            <div class="col-sm-6">
+            <div class="card">
+              <img src="sudoku_pic.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Solving Sudoku using different Data Structures</h5>
+                <button onclick= "playVid()" type="button" class="btn btn-primary">Play a short video</button>
+              
+                
+                  <button class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Read details
+                  </button>
+                 
+              
+                <div class="collapse" id="collapseExample">
+                  <div class=" card-body">
+                    <p>
+                    This website was created by me for my college minor project. I used HTML, CSS, BOOTSTRAP and JavaScript for front end design and JAVA, PHP and C++ for backend design and algorithms. Various Sudokus of different difficulty levels were taken as input and solved using four different data Structures (array, linked list,resursive call, trees) to analyse which data structure is the fastest and most efficient for solving a complex problem like Sudoku. And since no. of lines of code directly impacts the calculation of execution time of a program, so I designed this simple interface as seen in the video.
+                    If you want to learn more about this project, feel free to contact me.
+                  </p>
+                  </div>
+                </div>
+
+
+
+              </div>
+            </div>
+            </div>
+
+            <div class="video_player col-sm-6">
+            <video id="video" class="video" controls>
+              <iframe src="sudoku.mp4" type="video/mp4">
+              
+            </video>
+          </div>
+        </div>
+
+        <script> 
+          var vid = document.getElementById("video");
+          function playVid() { 
+            vid.play(); 
+          } 
+          </script>
+          
+        </div>
+        <hr>
+
+        <div class="info_card card text-white bg-info mb-3" style="max-width: 40rem;">
+          <div class="card-header"><h2>NOTICE!</h2></div>
+          <div class="card-body">
+            <h5 class="card-title">More project updates coming soon!</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+
+            
+          
+        </body>
+      </html>
+          
