@@ -1,9 +1,9 @@
-@media screen and (max-width: 1060px) {}
+
 
 
 
 /* Media Queries: Tablet Portrait */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
 
     .intro h1,
     h2 {
