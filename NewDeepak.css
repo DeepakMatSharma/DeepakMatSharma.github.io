@@ -1,10 +1,4 @@
 
-
-
-
-/* Media Queries: Tablet Portrait */
-@media screen and (max-width: 760px) {
-
     .intro h1,
     h2 {
         font-size: x-large;
